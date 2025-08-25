@@ -1,0 +1,66 @@
+#sky{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 243, 243);
+    animation-name: anmt;
+    animation-duration: 10s;
+}
+#sun{
+    width: 150px;
+height: 200px;
+position: absolute;
+top: 150px;
+left: 0;
+animation-name: sun;
+animation-duration: 10s;
+}
+@keyframes anmt {
+ 0%{background-color: turquoise;}
+ 20%{background-color:cyan;}
+ 40%{background-color: brown;}
+ 45%{background-color: crimson;}
+ 50%{background-color: darkred;}
+ 60%{background-color: red;}
+ 70%{background-color: rgb(235, 54, 23);}
+ 80%{background-color: rgb(73, 13, 2);}
+ 100%{background-color: rgb(43, 1, 1);}
+}
+@keyframes sun {
+    0%{top: 150px; left: 0px;}
+    20%{top: 120px; left: 100px;}
+    40%{top: 100px; left: 200px;}
+    45%{top: 90px; left:  400px ;}
+
+
+    50%{top: 70px; left: 500px;}
+    60%{top: 50px; left: 600px ;}
+    70%{top: 30px ; left: 700px ;}
+    90%{top: 25px; left: 900px;}
+    100%{top: 150px; left: 1000px;}
+
+}
+#water{
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+    animation-name: moving;
+    animation-duration: 10s;
+}
+#boat{
+    width: 150px;
+    height: 200px;
+    position:absolute;
+    top: 150px;
+    left: 0;
+animation-name: boat;
+animation-duration: 10s;
+}
+
+@keyframes boat {
+    0%{bottom: 50 px; left: 0px;}
+    20%{bottom: 50px; left: 200px;}
+    40%{bottom: 50px; left: 400px;}
+    60%{bottom: 50px; left: 600px;}
+    80%{bottom: 50px; left: 800px;}
+    100%{bottom: 50px; left: 1000px;}
+    } 

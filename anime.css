@@ -1,0 +1,30 @@
+div{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(233, 7, 7);
+    animation-name:sun ;
+    animation-duration: 10s;
+}
+img{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: sun;
+    animation-duration: 10s;
+}
+ @keyframes sun {
+    0%{background-color: rgb(233, 7, 7);}
+    20%{background-color: rgb(54, 44, 44);}
+    40%{background-color: aquamarine;}
+    70%{background-color: aqua;}
+    100%{background-color: brown;}
+ }
+ @keyframes sun {
+    0%{top: 0; right: 0;}
+    20%{top: 0; right: 300px;}
+    40%{top: 0; right: 500px;}
+    70%{top: 0; right: 700px;}
+    100%{top: 0; right: 1000px;}
+ }

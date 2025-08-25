@@ -1,0 +1,22 @@
+#logo{
+	width: 80px;
+	height: 50px;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+}
+a{
+	margin-left: 90px;
+	text-decoration: none;
+	color: blue;
+}
+button{
+	margin-left: 200px; 
+
+}
+body{
+	background-image: url('CAR.png');
+	background-size: cover;
+}
+
